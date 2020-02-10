@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CRECHES.shp</name>
+	<Schema name="CRECHES" id="S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+		<SimpleField type="double" name="Odisseia"><displayName>&lt;b&gt;Odisseia&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Sigeam"><displayName>&lt;b&gt;Sigeam&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Esc_Of"><displayName>&lt;b&gt;Esc_Of&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Esc_Alt"><displayName>&lt;b&gt;Esc_Alt&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Bairro"><displayName>&lt;b&gt;Bairro&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="End_Of"><displayName>&lt;b&gt;End_Of&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="End_Alt"><displayName>&lt;b&gt;End_Alt&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Complement"><displayName>&lt;b&gt;Complement&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Zoneamento"><displayName>&lt;b&gt;Zoneamento&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Urb_Or_Rur"><displayName>&lt;b&gt;Urb_Or_Rur&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="CEP"><displayName>&lt;b&gt;CEP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Zon_Sigeam"><displayName>&lt;b&gt;Zon_Sigeam&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Modalidade"><displayName>&lt;b&gt;Modalidade&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="EJA"><displayName>&lt;b&gt;EJA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="EM_SEMED"><displayName>&lt;b&gt;EM_SEMED&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="EM_PMM"><displayName>&lt;b&gt;EM_PMM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Distrito"><displayName>&lt;b&gt;Distrito&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Municipio"><displayName>&lt;b&gt;Municipio&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Cod_Inep"><displayName>&lt;b&gt;Cod_Inep&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Telefone"><displayName>&lt;b&gt;Telefone&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Diretor"><displayName>&lt;b&gt;Diretor&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Ato_Criac"><displayName>&lt;b&gt;Ato_Criac&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Alunos"><displayName>&lt;b&gt;Alunos&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Tipo_Esc"><displayName>&lt;b&gt;Tipo_Esc&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Tipo_Ocup"><displayName>&lt;b&gt;Tipo_Ocup&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Funcioname"><displayName>&lt;b&gt;Funcioname&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Pro_or_Loc"><displayName>&lt;b&gt;Pro_or_Loc&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="UTR"><displayName>&lt;b&gt;UTR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="X_Long"><displayName>&lt;b&gt;X_Long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Y_Lat"><displayName>&lt;b&gt;Y_Lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Mat_IPTU"><displayName>&lt;b&gt;Mat_IPTU&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Prop_Pres"><displayName>&lt;b&gt;Prop_Pres&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="OBS"><displayName>&lt;b&gt;OBS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="UTH"><displayName>&lt;b&gt;UTH&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Odisseia</b></td><td>$[CRECHES/Odisseia]</td></tr>
+  <tr><td><b>Sigeam</b></td><td>$[CRECHES/Sigeam]</td></tr>
+  <tr><td><b>Esc_Of</b></td><td>$[CRECHES/Esc_Of]</td></tr>
+  <tr><td><b>Esc_Alt</b></td><td>$[CRECHES/Esc_Alt]</td></tr>
+  <tr><td><b>Bairro</b></td><td>$[CRECHES/Bairro]</td></tr>
+  <tr><td><b>End_Of</b></td><td>$[CRECHES/End_Of]</td></tr>
+  <tr><td><b>End_Alt</b></td><td>$[CRECHES/End_Alt]</td></tr>
+  <tr><td><b>Complement</b></td><td>$[CRECHES/Complement]</td></tr>
+  <tr><td><b>Zoneamento</b></td><td>$[CRECHES/Zoneamento]</td></tr>
+  <tr><td><b>Urb_Or_Rur</b></td><td>$[CRECHES/Urb_Or_Rur]</td></tr>
+  <tr><td><b>CEP</b></td><td>$[CRECHES/CEP]</td></tr>
+  <tr><td><b>Zon_Sigeam</b></td><td>$[CRECHES/Zon_Sigeam]</td></tr>
+  <tr><td><b>Modalidade</b></td><td>$[CRECHES/Modalidade]</td></tr>
+  <tr><td><b>EJA</b></td><td>$[CRECHES/EJA]</td></tr>
+  <tr><td><b>EM_SEMED</b></td><td>$[CRECHES/EM_SEMED]</td></tr>
+  <tr><td><b>EM_PMM</b></td><td>$[CRECHES/EM_PMM]</td></tr>
+  <tr><td><b>Distrito</b></td><td>$[CRECHES/Distrito]</td></tr>
+  <tr><td><b>Municipio</b></td><td>$[CRECHES/Municipio]</td></tr>
+  <tr><td><b>Cod_Inep</b></td><td>$[CRECHES/Cod_Inep]</td></tr>
+  <tr><td><b>Telefone</b></td><td>$[CRECHES/Telefone]</td></tr>
+  <tr><td><b>Diretor</b></td><td>$[CRECHES/Diretor]</td></tr>
+  <tr><td><b>Ato_Criac</b></td><td>$[CRECHES/Ato_Criac]</td></tr>
+  <tr><td><b>Alunos</b></td><td>$[CRECHES/Alunos]</td></tr>
+  <tr><td><b>Tipo_Esc</b></td><td>$[CRECHES/Tipo_Esc]</td></tr>
+  <tr><td><b>Tipo_Ocup</b></td><td>$[CRECHES/Tipo_Ocup]</td></tr>
+  <tr><td><b>Funcioname</b></td><td>$[CRECHES/Funcioname]</td></tr>
+  <tr><td><b>Pro_or_Loc</b></td><td>$[CRECHES/Pro_or_Loc]</td></tr>
+  <tr><td><b>UTR</b></td><td>$[CRECHES/UTR]</td></tr>
+  <tr><td><b>X_Long</b></td><td>$[CRECHES/X_Long]</td></tr>
+  <tr><td><b>Y_Lat</b></td><td>$[CRECHES/Y_Lat]</td></tr>
+  <tr><td><b>Mat_IPTU</b></td><td>$[CRECHES/Mat_IPTU]</td></tr>
+  <tr><td><b>Prop_Pres</b></td><td>$[CRECHES/Prop_Pres]</td></tr>
+  <tr><td><b>OBS</b></td><td>$[CRECHES/OBS]</td></tr>
+  <tr><td><b>UTH</b></td><td>$[CRECHES/UTH]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Odisseia</b></td><td>$[CRECHES/Odisseia]</td></tr>
+  <tr><td><b>Sigeam</b></td><td>$[CRECHES/Sigeam]</td></tr>
+  <tr><td><b>Esc_Of</b></td><td>$[CRECHES/Esc_Of]</td></tr>
+  <tr><td><b>Esc_Alt</b></td><td>$[CRECHES/Esc_Alt]</td></tr>
+  <tr><td><b>Bairro</b></td><td>$[CRECHES/Bairro]</td></tr>
+  <tr><td><b>End_Of</b></td><td>$[CRECHES/End_Of]</td></tr>
+  <tr><td><b>End_Alt</b></td><td>$[CRECHES/End_Alt]</td></tr>
+  <tr><td><b>Complement</b></td><td>$[CRECHES/Complement]</td></tr>
+  <tr><td><b>Zoneamento</b></td><td>$[CRECHES/Zoneamento]</td></tr>
+  <tr><td><b>Urb_Or_Rur</b></td><td>$[CRECHES/Urb_Or_Rur]</td></tr>
+  <tr><td><b>CEP</b></td><td>$[CRECHES/CEP]</td></tr>
+  <tr><td><b>Zon_Sigeam</b></td><td>$[CRECHES/Zon_Sigeam]</td></tr>
+  <tr><td><b>Modalidade</b></td><td>$[CRECHES/Modalidade]</td></tr>
+  <tr><td><b>EJA</b></td><td>$[CRECHES/EJA]</td></tr>
+  <tr><td><b>EM_SEMED</b></td><td>$[CRECHES/EM_SEMED]</td></tr>
+  <tr><td><b>EM_PMM</b></td><td>$[CRECHES/EM_PMM]</td></tr>
+  <tr><td><b>Distrito</b></td><td>$[CRECHES/Distrito]</td></tr>
+  <tr><td><b>Municipio</b></td><td>$[CRECHES/Municipio]</td></tr>
+  <tr><td><b>Cod_Inep</b></td><td>$[CRECHES/Cod_Inep]</td></tr>
+  <tr><td><b>Telefone</b></td><td>$[CRECHES/Telefone]</td></tr>
+  <tr><td><b>Diretor</b></td><td>$[CRECHES/Diretor]</td></tr>
+  <tr><td><b>Ato_Criac</b></td><td>$[CRECHES/Ato_Criac]</td></tr>
+  <tr><td><b>Alunos</b></td><td>$[CRECHES/Alunos]</td></tr>
+  <tr><td><b>Tipo_Esc</b></td><td>$[CRECHES/Tipo_Esc]</td></tr>
+  <tr><td><b>Tipo_Ocup</b></td><td>$[CRECHES/Tipo_Ocup]</td></tr>
+  <tr><td><b>Funcioname</b></td><td>$[CRECHES/Funcioname]</td></tr>
+  <tr><td><b>Pro_or_Loc</b></td><td>$[CRECHES/Pro_or_Loc]</td></tr>
+  <tr><td><b>UTR</b></td><td>$[CRECHES/UTR]</td></tr>
+  <tr><td><b>X_Long</b></td><td>$[CRECHES/X_Long]</td></tr>
+  <tr><td><b>Y_Lat</b></td><td>$[CRECHES/Y_Lat]</td></tr>
+  <tr><td><b>Mat_IPTU</b></td><td>$[CRECHES/Mat_IPTU]</td></tr>
+  <tr><td><b>Prop_Pres</b></td><td>$[CRECHES/Prop_Pres]</td></tr>
+  <tr><td><b>OBS</b></td><td>$[CRECHES/OBS]</td></tr>
+  <tr><td><b>UTH</b></td><td>$[CRECHES/UTH]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>CRECHES</name>
+		<Placemark>
+			<name>CRECHE MUL. MAGDALENA ARCE DAOU</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">1285</SimpleData>
+					<SimpleData name="Sigeam">8092</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUL. MAGDALENA ARCE DAOU</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUL. MAGDALENA ARCE DAOU</SimpleData>
+					<SimpleData name="Bairro">SANTA LUZIA</SimpleData>
+					<SimpleData name="End_Of">RUA PROF. CARLOS MESQUITA, S/Nº</SimpleData>
+					<SimpleData name="End_Alt">RUA PROF CARLOS MESQUITA</SimpleData>
+					<SimpleData name="Complement"></SimpleData>
+					<SimpleData name="Zoneamento">ZONA SUL</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">6.90744e+07</SimpleData>
+					<SimpleData name="Zon_Sigeam">SUL</SimpleData>
+					<SimpleData name="Modalidade">CRECHE</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.magdalenadaou@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM">LUCIENNEDEPAULA32@HOTMAIL.COM</SimpleData>
+					<SimpleData name="Distrito">DDZ SUL</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">1.31004e+07</SimpleData>
+					<SimpleData name="Telefone">0</SimpleData>
+					<SimpleData name="Diretor">LUCIENNE COSTA DE PAULA</SimpleData>
+					<SimpleData name="Ato_Criac">Decreto 2007/2012 DE 08/11/2012 SEMED DOM 08/11/2012</SimpleData>
+					<SimpleData name="Alunos">256</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-60.007</SimpleData>
+					<SimpleData name="Y_Lat">-3.13749</SimpleData>
+					<SimpleData name="Mat_IPTU">2.15632e+06</SimpleData>
+					<SimpleData name="Prop_Pres">PREFEITURA MUNICIPAL DE MANAUS</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.0069802486922,-3.137491382464386,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUL. GABRIEL CORRÊA PEDROSA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">1385</SimpleData>
+					<SimpleData name="Sigeam">8686</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUL. GABRIEL CORRÊA PEDROSA</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUNICIPAL GABRIEL CORREA PEDROSA</SimpleData>
+					<SimpleData name="Bairro">COMPENSA</SimpleData>
+					<SimpleData name="End_Of">RUA SÃO SEBASTIÃO, S/N° - (RIO XINGU)</SimpleData>
+					<SimpleData name="End_Alt">RUA SEBASTIAO ROMAM</SimpleData>
+					<SimpleData name="Complement">CONJ RIO XINGU</SimpleData>
+					<SimpleData name="Zoneamento">ZONA OESTE</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">6.9e+07</SimpleData>
+					<SimpleData name="Zon_Sigeam">OESTE</SimpleData>
+					<SimpleData name="Modalidade">CRECHE</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.gabrielcorrea@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM"></SimpleData>
+					<SimpleData name="Distrito">DDZ OESTE</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">1.31026e+07</SimpleData>
+					<SimpleData name="Telefone">3.67537e+07</SimpleData>
+					<SimpleData name="Diretor">EDINELZA CESAR CORREA</SimpleData>
+					<SimpleData name="Ato_Criac"></SimpleData>
+					<SimpleData name="Alunos">226</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-60.0608</SimpleData>
+					<SimpleData name="Y_Lat">-3.09726</SimpleData>
+					<SimpleData name="Mat_IPTU">325364</SimpleData>
+					<SimpleData name="Prop_Pres">RD-VILA EMPREENDIMENTO SPE LTDA</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.06076880469657,-3.09725591062102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUL. ANA LOPES PEREIRA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">1386</SimpleData>
+					<SimpleData name="Sigeam">8898</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUL. ANA LOPES PEREIRA</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUNICIPAL ANA LOPES PEREIRA</SimpleData>
+					<SimpleData name="Bairro">COMPENSA</SimpleData>
+					<SimpleData name="End_Of">RUA ALVARES AZEVEDO</SimpleData>
+					<SimpleData name="End_Alt">RUA ALVARES AZEVEDO</SimpleData>
+					<SimpleData name="Complement">CONJUNTO ARUANA</SimpleData>
+					<SimpleData name="Zoneamento">ZONA OESTE</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">6.90364e+07</SimpleData>
+					<SimpleData name="Zon_Sigeam">OESTE</SimpleData>
+					<SimpleData name="Modalidade">CRECHE</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.analopes@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM"></SimpleData>
+					<SimpleData name="Distrito">DDZ OESTE</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">1.31016e+07</SimpleData>
+					<SimpleData name="Telefone">9.10952e+07</SimpleData>
+					<SimpleData name="Diretor">RINALDA ORTIZ COSTA</SimpleData>
+					<SimpleData name="Ato_Criac">Decreto 2729/2014 DE 11/03/2014 Gabinete Prefeito DOM 11/03/2014</SimpleData>
+					<SimpleData name="Alunos">196</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-60.0528</SimpleData>
+					<SimpleData name="Y_Lat">-3.09693</SimpleData>
+					<SimpleData name="Mat_IPTU">78754</SimpleData>
+					<SimpleData name="Prop_Pres">AREA VERDE</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.05284447048373,-3.096930000303586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUNICIPAL PROFESSORA LUZENIR FARIAS LOPES</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">0</SimpleData>
+					<SimpleData name="Sigeam">8941</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUNICIPAL PROFESSORA LUZENIR FARIAS LOPES</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUNICIPAL PROFESSORA LUZENIR FARIAS LOPES</SimpleData>
+					<SimpleData name="Bairro">SÃO FRANCISCO</SimpleData>
+					<SimpleData name="End_Of">RUA RIO AMAZONAS</SimpleData>
+					<SimpleData name="End_Alt">RUA RIO AMAZONAS</SimpleData>
+					<SimpleData name="Complement"></SimpleData>
+					<SimpleData name="Zoneamento">ZONA SUL</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">0</SimpleData>
+					<SimpleData name="Zon_Sigeam">SUL</SimpleData>
+					<SimpleData name="Modalidade">CRECHE MUNICIPAL</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.luzenirlopes@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM"></SimpleData>
+					<SimpleData name="Distrito">DDZ SUL</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">0</SimpleData>
+					<SimpleData name="Telefone">0</SimpleData>
+					<SimpleData name="Diretor">MARIA AUXILIADORA DE SOUZA CHAGAS</SimpleData>
+					<SimpleData name="Ato_Criac"></SimpleData>
+					<SimpleData name="Alunos">0</SimpleData>
+					<SimpleData name="Tipo_Esc"></SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-59.9984</SimpleData>
+					<SimpleData name="Y_Lat">-3.10856</SimpleData>
+					<SimpleData name="Mat_IPTU">7.77492e+08</SimpleData>
+					<SimpleData name="Prop_Pres">COMPARECA A CENTRAL DE ATENDIMENTO COM URGENCIA</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.99843688324388,-3.108559794651051,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUL.MANUEL OCTÁVIO RODRIGUES SOUZA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">1287</SimpleData>
+					<SimpleData name="Sigeam">8085</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUL.MANUEL OCTÁVIO RODRIGUES SOUZA</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUL. MANUEL OCTAVIO RODRIGUES SOUZA</SimpleData>
+					<SimpleData name="Bairro">MAUAZINHO</SimpleData>
+					<SimpleData name="End_Of">AV. SOLIMÕES, S/Nº</SimpleData>
+					<SimpleData name="End_Alt">AV SOLIMOES</SimpleData>
+					<SimpleData name="Complement">COMUNIDADE JARDIM MAUA</SimpleData>
+					<SimpleData name="Zoneamento">ZONA LESTE</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">6.90752e+07</SimpleData>
+					<SimpleData name="Zon_Sigeam">LESTE I</SimpleData>
+					<SimpleData name="Modalidade">CRECHE</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.manueloctavio@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM"></SimpleData>
+					<SimpleData name="Distrito">DDZ LESTE I</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">1.3099e+07</SimpleData>
+					<SimpleData name="Telefone">3.34241e+07</SimpleData>
+					<SimpleData name="Diretor">ANDREZZA MONTE FERREIRA</SimpleData>
+					<SimpleData name="Ato_Criac">Decreto 2007/2012 DE 08/11/2012 SEMED DOM 08/11/2012</SimpleData>
+					<SimpleData name="Alunos">91</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-59.9338</SimpleData>
+					<SimpleData name="Y_Lat">-3.11531</SimpleData>
+					<SimpleData name="Mat_IPTU">331522</SimpleData>
+					<SimpleData name="Prop_Pres">JOAO BOSCO NOGUEIRA DA COSTA NOVO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.9337803993897,-3.115311160008143,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUL. PROFª. ELIANA DE FREITAS MORAES</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">281</SimpleData>
+					<SimpleData name="Sigeam">7123</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUL. PROFª. ELIANA DE FREITAS MORAES</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUL. PROFª. ELIANA DE FREITAS MORAES</SimpleData>
+					<SimpleData name="Bairro">CIDADE NOVA</SimpleData>
+					<SimpleData name="End_Of">RUA PROFª ROZINEIDE GUADALUPE</SimpleData>
+					<SimpleData name="End_Alt">RUA 16 DE AGOSTO S/N RIACHO DOCE III</SimpleData>
+					<SimpleData name="Complement"></SimpleData>
+					<SimpleData name="Zoneamento">ZONA NORTE</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">6.90952e+07</SimpleData>
+					<SimpleData name="Zon_Sigeam">NORTE</SimpleData>
+					<SimpleData name="Modalidade">CRECHE</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.elianamoraes@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM">CRECHE.ELIANAMORAES@PMM.AM.GOV.BR</SimpleData>
+					<SimpleData name="Distrito">DDZ CENTRO-SUL</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">1.31562e+07</SimpleData>
+					<SimpleData name="Telefone">3.22163e+07</SimpleData>
+					<SimpleData name="Diretor">LUCILENI MARIA DE LIRA MENDONCA</SimpleData>
+					<SimpleData name="Ato_Criac">LEI 1296/2008 DE 02/12/2008 Gabinete Prefeito DOM 02/12/2008</SimpleData>
+					<SimpleData name="Alunos">235</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-59.9653</SimpleData>
+					<SimpleData name="Y_Lat">-3.02734</SimpleData>
+					<SimpleData name="Mat_IPTU">7.77017e+08</SimpleData>
+					<SimpleData name="Prop_Pres">CRECHE MUNICIPAL</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.9653024038042,-3.027335691739073,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUL. MARIA FERREIRA BERNARDES</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">1366</SimpleData>
+					<SimpleData name="Sigeam">8510</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUL. MARIA FERREIRA BERNARDES</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUL. MARIA FERREIRA BERNARDES</SimpleData>
+					<SimpleData name="Bairro">CIDADE DE DEUS</SimpleData>
+					<SimpleData name="End_Of">RUA FAZENDINHA, S/Nº</SimpleData>
+					<SimpleData name="End_Alt">RUA FAZENDINHA,S/N</SimpleData>
+					<SimpleData name="Complement">COMUNIDADE FAZENDINHA</SimpleData>
+					<SimpleData name="Zoneamento">ZONA NORTE</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">6.9e+07</SimpleData>
+					<SimpleData name="Zon_Sigeam">NORTE</SimpleData>
+					<SimpleData name="Modalidade">CRECHE</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.mariaferreira@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM"></SimpleData>
+					<SimpleData name="Distrito">DDZ CENTRO-SUL</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">1.31005e+07</SimpleData>
+					<SimpleData name="Telefone">9.26554e+07</SimpleData>
+					<SimpleData name="Diretor">GICELIA MARIA PEREIRA LEAL</SimpleData>
+					<SimpleData name="Ato_Criac"></SimpleData>
+					<SimpleData name="Alunos">79</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-59.9509</SimpleData>
+					<SimpleData name="Y_Lat">-3.02057</SimpleData>
+					<SimpleData name="Mat_IPTU">0</SimpleData>
+					<SimpleData name="Prop_Pres"></SimpleData>
+					<SimpleData name="OBS">Verificar</SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.9508987311924,-3.020574496626292,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUNICIPAL MARIA LUIZA DA CONCEIÇÃO SILVA</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">0</SimpleData>
+					<SimpleData name="Sigeam">9083</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUNICIPAL MARIA LUIZA DA CONCEIÇÃO SILVA</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MARIA LUIZA DA CONCEIÇÃO SILVA</SimpleData>
+					<SimpleData name="Bairro">JORGE TEIXEIRA</SimpleData>
+					<SimpleData name="End_Of">AVENIDA ITAÚBA</SimpleData>
+					<SimpleData name="End_Alt">AVENIDA ITAÚBA</SimpleData>
+					<SimpleData name="Complement">PROURBIS JORGE TEIXEIRA</SimpleData>
+					<SimpleData name="Zoneamento">ZONA LESTE</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">0</SimpleData>
+					<SimpleData name="Zon_Sigeam">LESTE II</SimpleData>
+					<SimpleData name="Modalidade">CRECHE MUNICIPAL</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.marialuizasilva@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM"></SimpleData>
+					<SimpleData name="Distrito">DDZ LESTE II</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">0</SimpleData>
+					<SimpleData name="Telefone">0</SimpleData>
+					<SimpleData name="Diretor"></SimpleData>
+					<SimpleData name="Ato_Criac"></SimpleData>
+					<SimpleData name="Alunos">0</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-59.9337</SimpleData>
+					<SimpleData name="Y_Lat">-3.03952</SimpleData>
+					<SimpleData name="Mat_IPTU">0</SimpleData>
+					<SimpleData name="Prop_Pres">FRANCISCO DE OLIVEIRA ALVES</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.93367908928959,-3.039520527902826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUL. NEIDE TOMAZ AVELINO</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">1374</SimpleData>
+					<SimpleData name="Sigeam">8675</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUL. NEIDE TOMAZ AVELINO</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUNICIPAL NEIDE TOMAZ AVELINO</SimpleData>
+					<SimpleData name="Bairro">JORGE TEIXEIRA</SimpleData>
+					<SimpleData name="End_Of">RUA MUTUM-ETÊ, S/N° - (COM. CIDADE ALTA)</SimpleData>
+					<SimpleData name="End_Alt">RUA MUTUM-ETE</SimpleData>
+					<SimpleData name="Complement">CIDADE ALTA</SimpleData>
+					<SimpleData name="Zoneamento">ZONA LESTE</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">6.90881e+07</SimpleData>
+					<SimpleData name="Zon_Sigeam">LESTE II</SimpleData>
+					<SimpleData name="Modalidade">CRECHE</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.neidetomaz@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM"></SimpleData>
+					<SimpleData name="Distrito">DDZ LESTE II</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">1.31016e+07</SimpleData>
+					<SimpleData name="Telefone">9.27358e+07</SimpleData>
+					<SimpleData name="Diretor">CLAUDIA RENATA DE SOUZA FERNANDES</SimpleData>
+					<SimpleData name="Ato_Criac">Decreto 2620/2013 DE 30/10/2013 Gabinete Prefeito DOM 30/10/2013</SimpleData>
+					<SimpleData name="Alunos">225</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-59.9213</SimpleData>
+					<SimpleData name="Y_Lat">-3.02046</SimpleData>
+					<SimpleData name="Mat_IPTU">7.77395e+08</SimpleData>
+					<SimpleData name="Prop_Pres">MANOEL DA COSTA</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.92126456210619,-3.020455292615569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRECHE MUL. PROFª. VIRGINIA MARÍLIA MELLO DE ARAÚJO</name>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_CRECHES_DDSSSSSSSSDSSSSSSSDDSSDSSSSSDDDSSS">
+					<SimpleData name="Odisseia">1372</SimpleData>
+					<SimpleData name="Sigeam">8531</SimpleData>
+					<SimpleData name="Esc_Of">CRECHE MUL. PROFª. VIRGINIA MARÍLIA MELLO DE ARAÚJO</SimpleData>
+					<SimpleData name="Esc_Alt">CRECHE MUL. PROFª. VIRGINIA MARILIA MELLO DE ARAUJO</SimpleData>
+					<SimpleData name="Bairro">GILBERTO MESTRINHO</SimpleData>
+					<SimpleData name="End_Of">RUA DAS CARAPANAÚBA, S/Nº</SimpleData>
+					<SimpleData name="End_Alt">RUA DAS CARAPANAUBAS S/N</SimpleData>
+					<SimpleData name="Complement">COMUNIDADE CIDADE DO LESTE</SimpleData>
+					<SimpleData name="Zoneamento">ZONA LESTE</SimpleData>
+					<SimpleData name="Urb_Or_Rur">URBANA</SimpleData>
+					<SimpleData name="CEP">6.90361e+07</SimpleData>
+					<SimpleData name="Zon_Sigeam">LESTE II</SimpleData>
+					<SimpleData name="Modalidade">CRECHE</SimpleData>
+					<SimpleData name="EJA"></SimpleData>
+					<SimpleData name="EM_SEMED">creche.virginiamarilia@semed.manaus.am.gov.br</SimpleData>
+					<SimpleData name="EM_PMM"></SimpleData>
+					<SimpleData name="Distrito">DDZ LESTE II</SimpleData>
+					<SimpleData name="Municipio">MANAUS</SimpleData>
+					<SimpleData name="Cod_Inep">1.31005e+07</SimpleData>
+					<SimpleData name="Telefone">6.34429e+07</SimpleData>
+					<SimpleData name="Diretor">ERIZA PASSOS BASTOS DOS SANTOS</SimpleData>
+					<SimpleData name="Ato_Criac">Decreto 2412/2013 DE 10/07/2013 SEMED DOM 10/07/2013</SimpleData>
+					<SimpleData name="Alunos">227</SimpleData>
+					<SimpleData name="Tipo_Esc">Prédio Escolar</SimpleData>
+					<SimpleData name="Tipo_Ocup">Próprio</SimpleData>
+					<SimpleData name="Funcioname">Ativa</SimpleData>
+					<SimpleData name="Pro_or_Loc">PRÓPRIO</SimpleData>
+					<SimpleData name="UTR"></SimpleData>
+					<SimpleData name="X_Long">-59.9334</SimpleData>
+					<SimpleData name="Y_Lat">-3.07628</SimpleData>
+					<SimpleData name="Mat_IPTU">0</SimpleData>
+					<SimpleData name="Prop_Pres"></SimpleData>
+					<SimpleData name="OBS">Área Verde</SimpleData>
+					<SimpleData name="UTH"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.93341908411198,-3.07628294117072,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
