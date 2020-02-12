@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ESCOLAS21.shp</name>
+	<visibility>0</visibility>
+	<Schema name="ESCOLAS21" id="S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+		<SimpleField type="int" name="OBJECTID_1"><displayName>&lt;b&gt;OBJECTID_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="OBJECTID"><displayName>&lt;b&gt;OBJECTID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="SIGEAM"><displayName>&lt;b&gt;SIGEAM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="INEP"><displayName>&lt;b&gt;INEP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ESCOLA"><displayName>&lt;b&gt;ESCOLA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ESCOLA_GED"><displayName>&lt;b&gt;ESCOLA_GED&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DDZ"><displayName>&lt;b&gt;DDZ&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DISTRITO"><displayName>&lt;b&gt;DISTRITO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ENDERECO"><displayName>&lt;b&gt;ENDERECO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="END_IMPLUR"><displayName>&lt;b&gt;END_IMPLUR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BAIRRO"><displayName>&lt;b&gt;BAIRRO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CEP"><displayName>&lt;b&gt;CEP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ZONAS"><displayName>&lt;b&gt;ZONAS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MODALIDADE"><displayName>&lt;b&gt;MODALIDADE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="SALAS"><displayName>&lt;b&gt;SALAS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="TURMAS"><displayName>&lt;b&gt;TURMAS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="EDUC_ESP"><displayName>&lt;b&gt;EDUC_ESP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ESP_EJA"><displayName>&lt;b&gt;ESP_EJA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BER"><displayName>&lt;b&gt;BER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Creche_I"><displayName>&lt;b&gt;Creche_I&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Creche_II"><displayName>&lt;b&gt;Creche_II&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Creche_III"><displayName>&lt;b&gt;Creche_III&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PRE_1º"><displayName>&lt;b&gt;PRE_1º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PRE_2º"><displayName>&lt;b&gt;PRE_2º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_1º"><displayName>&lt;b&gt;FUND_1º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_2º"><displayName>&lt;b&gt;FUND_2º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_3º"><displayName>&lt;b&gt;FUND_3º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_4º"><displayName>&lt;b&gt;FUND_4º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_5º"><displayName>&lt;b&gt;FUND_5º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_6º"><displayName>&lt;b&gt;FUND_6º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_7º"><displayName>&lt;b&gt;FUND_7º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_8º"><displayName>&lt;b&gt;FUND_8º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUND_9º"><displayName>&lt;b&gt;FUND_9º&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="IAS_1ª_FA"><displayName>&lt;b&gt;IAS_1ª_FA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="IAS_2ª_FA"><displayName>&lt;b&gt;IAS_2ª_FA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="EJA_1º_SE"><displayName>&lt;b&gt;EJA_1º_SE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="EJA_2º_SE"><displayName>&lt;b&gt;EJA_2º_SE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SRM"><displayName>&lt;b&gt;SRM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SR"><displayName>&lt;b&gt;SR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SME"><displayName>&lt;b&gt;SME&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="SREF"><displayName>&lt;b&gt;SREF&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="GESTOR"><displayName>&lt;b&gt;GESTOR&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CONTATO"><displayName>&lt;b&gt;CONTATO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="RAMAL_CORP"><displayName>&lt;b&gt;RAMAL_CORP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TELEFONE"><displayName>&lt;b&gt;TELEFONE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="E_X"><displayName>&lt;b&gt;E_X&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="N_Y"><displayName>&lt;b&gt;N_Y&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ATO_CRIAC"><displayName>&lt;b&gt;ATO_CRIAC&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TELECENTRO"><displayName>&lt;b&gt;TELECENTRO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="STATUS"><displayName>&lt;b&gt;STATUS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TIPO"><displayName>&lt;b&gt;TIPO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="OBS"><displayName>&lt;b&gt;OBS&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="ALUNOS"><displayName>&lt;b&gt;ALUNOS&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OBJECTID_1</b></td><td>$[ESCOLAS21/OBJECTID_1]</td></tr>
+  <tr><td><b>OBJECTID</b></td><td>$[ESCOLAS21/OBJECTID]</td></tr>
+  <tr><td><b>SIGEAM</b></td><td>$[ESCOLAS21/SIGEAM]</td></tr>
+  <tr><td><b>INEP</b></td><td>$[ESCOLAS21/INEP]</td></tr>
+  <tr><td><b>ESCOLA</b></td><td>$[ESCOLAS21/ESCOLA]</td></tr>
+  <tr><td><b>ESCOLA_GED</b></td><td>$[ESCOLAS21/ESCOLA_GED]</td></tr>
+  <tr><td><b>DDZ</b></td><td>$[ESCOLAS21/DDZ]</td></tr>
+  <tr><td><b>DISTRITO</b></td><td>$[ESCOLAS21/DISTRITO]</td></tr>
+  <tr><td><b>ENDERECO</b></td><td>$[ESCOLAS21/ENDERECO]</td></tr>
+  <tr><td><b>END_IMPLUR</b></td><td>$[ESCOLAS21/END_IMPLUR]</td></tr>
+  <tr><td><b>BAIRRO</b></td><td>$[ESCOLAS21/BAIRRO]</td></tr>
+  <tr><td><b>CEP</b></td><td>$[ESCOLAS21/CEP]</td></tr>
+  <tr><td><b>ZONAS</b></td><td>$[ESCOLAS21/ZONAS]</td></tr>
+  <tr><td><b>MODALIDADE</b></td><td>$[ESCOLAS21/MODALIDADE]</td></tr>
+  <tr><td><b>SALAS</b></td><td>$[ESCOLAS21/SALAS]</td></tr>
+  <tr><td><b>TURMAS</b></td><td>$[ESCOLAS21/TURMAS]</td></tr>
+  <tr><td><b>EDUC_ESP</b></td><td>$[ESCOLAS21/EDUC_ESP]</td></tr>
+  <tr><td><b>ESP_EJA</b></td><td>$[ESCOLAS21/ESP_EJA]</td></tr>
+  <tr><td><b>BER</b></td><td>$[ESCOLAS21/BER]</td></tr>
+  <tr><td><b>Creche_I</b></td><td>$[ESCOLAS21/Creche_I]</td></tr>
+  <tr><td><b>Creche_II</b></td><td>$[ESCOLAS21/Creche_II]</td></tr>
+  <tr><td><b>Creche_III</b></td><td>$[ESCOLAS21/Creche_III]</td></tr>
+  <tr><td><b>PRE_1º</b></td><td>$[ESCOLAS21/PRE_1º]</td></tr>
+  <tr><td><b>PRE_2º</b></td><td>$[ESCOLAS21/PRE_2º]</td></tr>
+  <tr><td><b>FUND_1º</b></td><td>$[ESCOLAS21/FUND_1º]</td></tr>
+  <tr><td><b>FUND_2º</b></td><td>$[ESCOLAS21/FUND_2º]</td></tr>
+  <tr><td><b>FUND_3º</b></td><td>$[ESCOLAS21/FUND_3º]</td></tr>
+  <tr><td><b>FUND_4º</b></td><td>$[ESCOLAS21/FUND_4º]</td></tr>
+  <tr><td><b>FUND_5º</b></td><td>$[ESCOLAS21/FUND_5º]</td></tr>
+  <tr><td><b>FUND_6º</b></td><td>$[ESCOLAS21/FUND_6º]</td></tr>
+  <tr><td><b>FUND_7º</b></td><td>$[ESCOLAS21/FUND_7º]</td></tr>
+  <tr><td><b>FUND_8º</b></td><td>$[ESCOLAS21/FUND_8º]</td></tr>
+  <tr><td><b>FUND_9º</b></td><td>$[ESCOLAS21/FUND_9º]</td></tr>
+  <tr><td><b>IAS_1ª_FA</b></td><td>$[ESCOLAS21/IAS_1ª_FA]</td></tr>
+  <tr><td><b>IAS_2ª_FA</b></td><td>$[ESCOLAS21/IAS_2ª_FA]</td></tr>
+  <tr><td><b>EJA_1º_SE</b></td><td>$[ESCOLAS21/EJA_1º_SE]</td></tr>
+  <tr><td><b>EJA_2º_SE</b></td><td>$[ESCOLAS21/EJA_2º_SE]</td></tr>
+  <tr><td><b>SRM</b></td><td>$[ESCOLAS21/SRM]</td></tr>
+  <tr><td><b>SR</b></td><td>$[ESCOLAS21/SR]</td></tr>
+  <tr><td><b>SME</b></td><td>$[ESCOLAS21/SME]</td></tr>
+  <tr><td><b>SREF</b></td><td>$[ESCOLAS21/SREF]</td></tr>
+  <tr><td><b>GESTOR</b></td><td>$[ESCOLAS21/GESTOR]</td></tr>
+  <tr><td><b>CONTATO</b></td><td>$[ESCOLAS21/CONTATO]</td></tr>
+  <tr><td><b>RAMAL_CORP</b></td><td>$[ESCOLAS21/RAMAL_CORP]</td></tr>
+  <tr><td><b>TELEFONE</b></td><td>$[ESCOLAS21/TELEFONE]</td></tr>
+  <tr><td><b>E_X</b></td><td>$[ESCOLAS21/E_X]</td></tr>
+  <tr><td><b>N_Y</b></td><td>$[ESCOLAS21/N_Y]</td></tr>
+  <tr><td><b>ATO_CRIAC</b></td><td>$[ESCOLAS21/ATO_CRIAC]</td></tr>
+  <tr><td><b>TELECENTRO</b></td><td>$[ESCOLAS21/TELECENTRO]</td></tr>
+  <tr><td><b>STATUS</b></td><td>$[ESCOLAS21/STATUS]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[ESCOLAS21/TIPO]</td></tr>
+  <tr><td><b>OBS</b></td><td>$[ESCOLAS21/OBS]</td></tr>
+  <tr><td><b>ALUNOS</b></td><td>$[ESCOLAS21/ALUNOS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>OBJECTID_1</b></td><td>$[ESCOLAS21/OBJECTID_1]</td></tr>
+  <tr><td><b>OBJECTID</b></td><td>$[ESCOLAS21/OBJECTID]</td></tr>
+  <tr><td><b>SIGEAM</b></td><td>$[ESCOLAS21/SIGEAM]</td></tr>
+  <tr><td><b>INEP</b></td><td>$[ESCOLAS21/INEP]</td></tr>
+  <tr><td><b>ESCOLA</b></td><td>$[ESCOLAS21/ESCOLA]</td></tr>
+  <tr><td><b>ESCOLA_GED</b></td><td>$[ESCOLAS21/ESCOLA_GED]</td></tr>
+  <tr><td><b>DDZ</b></td><td>$[ESCOLAS21/DDZ]</td></tr>
+  <tr><td><b>DISTRITO</b></td><td>$[ESCOLAS21/DISTRITO]</td></tr>
+  <tr><td><b>ENDERECO</b></td><td>$[ESCOLAS21/ENDERECO]</td></tr>
+  <tr><td><b>END_IMPLUR</b></td><td>$[ESCOLAS21/END_IMPLUR]</td></tr>
+  <tr><td><b>BAIRRO</b></td><td>$[ESCOLAS21/BAIRRO]</td></tr>
+  <tr><td><b>CEP</b></td><td>$[ESCOLAS21/CEP]</td></tr>
+  <tr><td><b>ZONAS</b></td><td>$[ESCOLAS21/ZONAS]</td></tr>
+  <tr><td><b>MODALIDADE</b></td><td>$[ESCOLAS21/MODALIDADE]</td></tr>
+  <tr><td><b>SALAS</b></td><td>$[ESCOLAS21/SALAS]</td></tr>
+  <tr><td><b>TURMAS</b></td><td>$[ESCOLAS21/TURMAS]</td></tr>
+  <tr><td><b>EDUC_ESP</b></td><td>$[ESCOLAS21/EDUC_ESP]</td></tr>
+  <tr><td><b>ESP_EJA</b></td><td>$[ESCOLAS21/ESP_EJA]</td></tr>
+  <tr><td><b>BER</b></td><td>$[ESCOLAS21/BER]</td></tr>
+  <tr><td><b>Creche_I</b></td><td>$[ESCOLAS21/Creche_I]</td></tr>
+  <tr><td><b>Creche_II</b></td><td>$[ESCOLAS21/Creche_II]</td></tr>
+  <tr><td><b>Creche_III</b></td><td>$[ESCOLAS21/Creche_III]</td></tr>
+  <tr><td><b>PRE_1º</b></td><td>$[ESCOLAS21/PRE_1º]</td></tr>
+  <tr><td><b>PRE_2º</b></td><td>$[ESCOLAS21/PRE_2º]</td></tr>
+  <tr><td><b>FUND_1º</b></td><td>$[ESCOLAS21/FUND_1º]</td></tr>
+  <tr><td><b>FUND_2º</b></td><td>$[ESCOLAS21/FUND_2º]</td></tr>
+  <tr><td><b>FUND_3º</b></td><td>$[ESCOLAS21/FUND_3º]</td></tr>
+  <tr><td><b>FUND_4º</b></td><td>$[ESCOLAS21/FUND_4º]</td></tr>
+  <tr><td><b>FUND_5º</b></td><td>$[ESCOLAS21/FUND_5º]</td></tr>
+  <tr><td><b>FUND_6º</b></td><td>$[ESCOLAS21/FUND_6º]</td></tr>
+  <tr><td><b>FUND_7º</b></td><td>$[ESCOLAS21/FUND_7º]</td></tr>
+  <tr><td><b>FUND_8º</b></td><td>$[ESCOLAS21/FUND_8º]</td></tr>
+  <tr><td><b>FUND_9º</b></td><td>$[ESCOLAS21/FUND_9º]</td></tr>
+  <tr><td><b>IAS_1ª_FA</b></td><td>$[ESCOLAS21/IAS_1ª_FA]</td></tr>
+  <tr><td><b>IAS_2ª_FA</b></td><td>$[ESCOLAS21/IAS_2ª_FA]</td></tr>
+  <tr><td><b>EJA_1º_SE</b></td><td>$[ESCOLAS21/EJA_1º_SE]</td></tr>
+  <tr><td><b>EJA_2º_SE</b></td><td>$[ESCOLAS21/EJA_2º_SE]</td></tr>
+  <tr><td><b>SRM</b></td><td>$[ESCOLAS21/SRM]</td></tr>
+  <tr><td><b>SR</b></td><td>$[ESCOLAS21/SR]</td></tr>
+  <tr><td><b>SME</b></td><td>$[ESCOLAS21/SME]</td></tr>
+  <tr><td><b>SREF</b></td><td>$[ESCOLAS21/SREF]</td></tr>
+  <tr><td><b>GESTOR</b></td><td>$[ESCOLAS21/GESTOR]</td></tr>
+  <tr><td><b>CONTATO</b></td><td>$[ESCOLAS21/CONTATO]</td></tr>
+  <tr><td><b>RAMAL_CORP</b></td><td>$[ESCOLAS21/RAMAL_CORP]</td></tr>
+  <tr><td><b>TELEFONE</b></td><td>$[ESCOLAS21/TELEFONE]</td></tr>
+  <tr><td><b>E_X</b></td><td>$[ESCOLAS21/E_X]</td></tr>
+  <tr><td><b>N_Y</b></td><td>$[ESCOLAS21/N_Y]</td></tr>
+  <tr><td><b>ATO_CRIAC</b></td><td>$[ESCOLAS21/ATO_CRIAC]</td></tr>
+  <tr><td><b>TELECENTRO</b></td><td>$[ESCOLAS21/TELECENTRO]</td></tr>
+  <tr><td><b>STATUS</b></td><td>$[ESCOLAS21/STATUS]</td></tr>
+  <tr><td><b>TIPO</b></td><td>$[ESCOLAS21/TIPO]</td></tr>
+  <tr><td><b>OBS</b></td><td>$[ESCOLAS21/OBS]</td></tr>
+  <tr><td><b>ALUNOS</b></td><td>$[ESCOLAS21/ALUNOS]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>ESCOLAS21</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>CMEI N. S. DA BOA ESPERANÇA</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">7</SimpleData>
+					<SimpleData name="OBJECTID">7</SimpleData>
+					<SimpleData name="SIGEAM">1518</SimpleData>
+					<SimpleData name="INEP">1.30815e+07</SimpleData>
+					<SimpleData name="ESCOLA">CMEI N. S. DA BOA ESPERANÇA</SimpleData>
+					<SimpleData name="ESCOLA_GED">CMEI N. S. da Boa Esperança</SimpleData>
+					<SimpleData name="DDZ">DDZ - II</SimpleData>
+					<SimpleData name="DISTRITO">DDZ OESTE</SimpleData>
+					<SimpleData name="ENDERECO">Rua Gama Farias, s/nº</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA GAMA FARIAS, S/N</SimpleData>
+					<SimpleData name="BAIRRO">NOVA ESPERANÇA</SimpleData>
+					<SimpleData name="CEP">69037-480</SimpleData>
+					<SimpleData name="ZONAS">ZONA OESTE</SimpleData>
+					<SimpleData name="MODALIDADE">EDUCAÇÃO INFANTIL</SimpleData>
+					<SimpleData name="SALAS">6</SimpleData>
+					<SimpleData name="TURMAS">12</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III">Creche III</SimpleData>
+					<SimpleData name="PRE_1º">PRÉ1º</SimpleData>
+					<SimpleData name="PRE_2º">PRÉ2º</SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">GILDETE SILVA DE GONZAGA</SimpleData>
+					<SimpleData name="CONTATO">99351-6977</SimpleData>
+					<SimpleData name="RAMAL_CORP">7619</SimpleData>
+					<SimpleData name="TELEFONE">3656-8567</SimpleData>
+					<SimpleData name="E_X">393761,5043</SimpleData>
+					<SimpleData name="N_Y">4658592,9334</SimpleData>
+					<SimpleData name="ATO_CRIAC">601/01 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">SEM TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">189</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.05612235289157,-3.087554626956921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. ETELVINA PEREIRA BRAGA</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">52</SimpleData>
+					<SimpleData name="OBJECTID">52</SimpleData>
+					<SimpleData name="SIGEAM">1206</SimpleData>
+					<SimpleData name="INEP">1.30584e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. ETELVINA PEREIRA BRAGA</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Etelvina Pereira Braga</SimpleData>
+					<SimpleData name="DDZ">DDZ - V</SimpleData>
+					<SimpleData name="DISTRITO">DDZ LESTE I</SimpleData>
+					<SimpleData name="ENDERECO">Rua Wolfang Nogueira, s/nº</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA WOLFANG NOGUEIRA</SimpleData>
+					<SimpleData name="BAIRRO">COROADO</SimpleData>
+					<SimpleData name="CEP">69085-550</SimpleData>
+					<SimpleData name="ZONAS">ZONA LESTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">10</SimpleData>
+					<SimpleData name="TURMAS">22</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º">FUND. 6º ANO</SimpleData>
+					<SimpleData name="FUND_7º">FUND. 7º ANO</SimpleData>
+					<SimpleData name="FUND_8º">FUND. 8º ANO</SimpleData>
+					<SimpleData name="FUND_9º">FUND. 9º ANO</SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE">EJA 2º SEG-MENTO</SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">ALZENICE LOPES DE MERELES</SimpleData>
+					<SimpleData name="CONTATO">99148-7813</SimpleData>
+					<SimpleData name="RAMAL_CORP">8095</SimpleData>
+					<SimpleData name="TELEFONE">3638-5163</SimpleData>
+					<SimpleData name="E_X">403537,5514</SimpleData>
+					<SimpleData name="N_Y">4659205,4237</SimpleData>
+					<SimpleData name="ATO_CRIAC">298/95 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">624</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.96817586933064,-3.082016614663052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CMEI JEAN PIAGET</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">82</SimpleData>
+					<SimpleData name="OBJECTID">82</SimpleData>
+					<SimpleData name="SIGEAM">1606</SimpleData>
+					<SimpleData name="INEP">1.30814e+07</SimpleData>
+					<SimpleData name="ESCOLA">CMEI JEAN PIAGET</SimpleData>
+					<SimpleData name="ESCOLA_GED">CMEI Jean Piaget</SimpleData>
+					<SimpleData name="DDZ">DDZ - II</SimpleData>
+					<SimpleData name="DISTRITO">DDZ OESTE</SimpleData>
+					<SimpleData name="ENDERECO">Rua Lauro Bittencourt, nº 549</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA LAURO BITTENCOURT S/N</SimpleData>
+					<SimpleData name="BAIRRO">SANTO ANTÔNIO</SimpleData>
+					<SimpleData name="CEP">69029-060</SimpleData>
+					<SimpleData name="ZONAS">ZONA OESTE</SimpleData>
+					<SimpleData name="MODALIDADE">EDUCAÇÃO INFANTIL</SimpleData>
+					<SimpleData name="SALAS">6</SimpleData>
+					<SimpleData name="TURMAS">12</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º">PRÉ1º</SimpleData>
+					<SimpleData name="PRE_2º">PRÉ2º</SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">CARLA CLAÚDIA LIMA MARTINS</SimpleData>
+					<SimpleData name="CONTATO">99311-0065/98170-2054</SimpleData>
+					<SimpleData name="RAMAL_CORP">7566</SimpleData>
+					<SimpleData name="TELEFONE">3216-8121</SimpleData>
+					<SimpleData name="E_X">395268,0479</SimpleData>
+					<SimpleData name="N_Y">4655458,2624</SimpleData>
+					<SimpleData name="ATO_CRIAC">601/01 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">SEM TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">201</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.04257041909662,-3.115903469488865,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. CARMEM GUIMARÃES HAGGE</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">117</SimpleData>
+					<SimpleData name="OBJECTID">117</SimpleData>
+					<SimpleData name="SIGEAM">1117</SimpleData>
+					<SimpleData name="INEP">1.30301e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. CARMEM GUIMARÃES HAGGE</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Carmem Guimarães Hagge</SimpleData>
+					<SimpleData name="DDZ">DDZ - III</SimpleData>
+					<SimpleData name="DISTRITO">DDZ NORTE</SimpleData>
+					<SimpleData name="ENDERECO">Rua N.S. das Graças, s/nº</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA N. SRA. DAS GRACAS, S/Nº</SimpleData>
+					<SimpleData name="BAIRRO">COLÔNIA TERRA NOVA</SimpleData>
+					<SimpleData name="CEP">69093-483</SimpleData>
+					<SimpleData name="ZONAS">ZONA NORTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">10</SimpleData>
+					<SimpleData name="TURMAS">18</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">Mª DUCINÉIA GOMES DA SILVEIRA</SimpleData>
+					<SimpleData name="CONTATO">98811-9250/3216-5645</SimpleData>
+					<SimpleData name="RAMAL_CORP">7942</SimpleData>
+					<SimpleData name="TELEFONE">3654-3735</SimpleData>
+					<SimpleData name="E_X">399958,0108</SimpleData>
+					<SimpleData name="N_Y">4667067,0322</SimpleData>
+					<SimpleData name="ATO_CRIAC">112/91 P.M.M.</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">422</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.00037771386207,-3.010921010544225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. PROFª. FRANCISCA CAMPOS CORRÊA</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">194</SimpleData>
+					<SimpleData name="OBJECTID">194</SimpleData>
+					<SimpleData name="SIGEAM">1226</SimpleData>
+					<SimpleData name="INEP">1.30584e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. PROFª. FRANCISCA CAMPOS CORRÊA</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Profª. Francisca Campos Corrêa</SimpleData>
+					<SimpleData name="DDZ">DDZ - VII</SimpleData>
+					<SimpleData name="DISTRITO">DDZ RURAL</SimpleData>
+					<SimpleData name="ENDERECO">Estrada do Cetur</SimpleData>
+					<SimpleData name="END_IMPLUR">AV. DO TURISMO - TARUMA</SimpleData>
+					<SimpleData name="BAIRRO">TARUMÃ</SimpleData>
+					<SimpleData name="CEP">69049-690</SimpleData>
+					<SimpleData name="ZONAS">ZONA OESTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">10</SimpleData>
+					<SimpleData name="TURMAS">26</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º">PRÉ2º</SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º">FUND. 6º ANO</SimpleData>
+					<SimpleData name="FUND_7º">FUND. 7º ANO</SimpleData>
+					<SimpleData name="FUND_8º">FUND. 8º ANO</SimpleData>
+					<SimpleData name="FUND_9º">FUND. 9º ANO</SimpleData>
+					<SimpleData name="IAS_1ª_FA">IAS 1ªFASE</SimpleData>
+					<SimpleData name="IAS_2ª_FA">IAS 2ª FASE</SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF">SREF</SimpleData>
+					<SimpleData name="GESTOR">NADIA MARIA PACHECO GUSMÃO</SimpleData>
+					<SimpleData name="CONTATO">99154-1769</SimpleData>
+					<SimpleData name="RAMAL_CORP">5201</SimpleData>
+					<SimpleData name="TELEFONE">3584-3787</SimpleData>
+					<SimpleData name="E_X">391503,9575</SimpleData>
+					<SimpleData name="N_Y">4666847,0148</SimpleData>
+					<SimpleData name="ATO_CRIAC">1093/07 P.M.M.</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PROPRIA/OCUPADO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">500</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.07642626887614,-3.012908035331294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. NESTOR JOSÉ SOEIRO DO NASCIMENTO</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">197</SimpleData>
+					<SimpleData name="OBJECTID">197</SimpleData>
+					<SimpleData name="SIGEAM">6343</SimpleData>
+					<SimpleData name="INEP">1.30934e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. NESTOR JOSÉ SOEIRO DO NASCIMENTO</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Nestor José Soeiro do Nascimento</SimpleData>
+					<SimpleData name="DDZ">DDZ - II</SimpleData>
+					<SimpleData name="DISTRITO">DDZ OESTE</SimpleData>
+					<SimpleData name="ENDERECO">Rua São Pedro, s/nº</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA SAO PEDRO</SimpleData>
+					<SimpleData name="BAIRRO">TARUMÃ</SimpleData>
+					<SimpleData name="CEP">69021-215</SimpleData>
+					<SimpleData name="ZONAS">ZONA OESTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">10</SimpleData>
+					<SimpleData name="TURMAS">28</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA">IAS 2ª FASE</SimpleData>
+					<SimpleData name="EJA_1º_SE">EJA 1º SEG-MENTO</SimpleData>
+					<SimpleData name="EJA_2º_SE">EJA 2º SEG-MENTO</SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">ANTONIO DE JESUS DOS SANTOS</SimpleData>
+					<SimpleData name="CONTATO">99147-1694</SimpleData>
+					<SimpleData name="RAMAL_CORP">7665</SimpleData>
+					<SimpleData name="TELEFONE">3653-4691</SimpleData>
+					<SimpleData name="E_X">396357,3168</SimpleData>
+					<SimpleData name="N_Y">4667911,781</SimpleData>
+					<SimpleData name="ATO_CRIAC">1.228/08 P.M.</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">777</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.03276752811166,-3.003281065995227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. SOLANGE NASCIMENTO</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">206</SimpleData>
+					<SimpleData name="OBJECTID">206</SimpleData>
+					<SimpleData name="SIGEAM">837</SimpleData>
+					<SimpleData name="INEP">1.30296e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. SOLANGE NASCIMENTO</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Solange Nascimento</SimpleData>
+					<SimpleData name="DDZ">DDZ - VII</SimpleData>
+					<SimpleData name="DISTRITO">DDZ RURAL</SimpleData>
+					<SimpleData name="ENDERECO">Est.Manaus - Caracaraí, Km.25 BR 174</SimpleData>
+					<SimpleData name="END_IMPLUR">EST. MANAUS - CARACARAI KM 2,5</SimpleData>
+					<SimpleData name="BAIRRO">TARUMÃ-AÇÚ</SimpleData>
+					<SimpleData name="CEP">69048-990</SimpleData>
+					<SimpleData name="ZONAS">ZONA OESTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">10</SimpleData>
+					<SimpleData name="TURMAS">24</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º">FUND. 6º ANO</SimpleData>
+					<SimpleData name="FUND_7º">FUND. 7º ANO</SimpleData>
+					<SimpleData name="FUND_8º">FUND. 8º ANO</SimpleData>
+					<SimpleData name="FUND_9º">FUND. 9º ANO</SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE">EJA 1º SEG-MENTO</SimpleData>
+					<SimpleData name="EJA_2º_SE">EJA 2º SEG-MENTO</SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">MARLONDIA R. DE MIRANDA</SimpleData>
+					<SimpleData name="CONTATO">99124-9992/99227-1344</SimpleData>
+					<SimpleData name="RAMAL_CORP">5155</SimpleData>
+					<SimpleData name="TELEFONE"></SimpleData>
+					<SimpleData name="E_X">396427,319</SimpleData>
+					<SimpleData name="N_Y">4672772,3957</SimpleData>
+					<SimpleData name="ATO_CRIAC">1724/84 P.M.M.</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">594</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.03213655229069,-2.959324301632929,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. ELVIRA BORGES</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">245</SimpleData>
+					<SimpleData name="OBJECTID">245</SimpleData>
+					<SimpleData name="SIGEAM">726</SimpleData>
+					<SimpleData name="INEP">1.30286e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. ELVIRA BORGES</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Elvira Borges</SimpleData>
+					<SimpleData name="DDZ">DDZ - II</SimpleData>
+					<SimpleData name="DISTRITO">DDZ OESTE</SimpleData>
+					<SimpleData name="ENDERECO">Rua 23 de Dezembro, nº 70</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA 23 DE DEZEMBRO, 70</SimpleData>
+					<SimpleData name="BAIRRO">COMPENSA</SimpleData>
+					<SimpleData name="CEP">69035-550</SimpleData>
+					<SimpleData name="ZONAS">ZONA OESTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">12</SimpleData>
+					<SimpleData name="TURMAS">25</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º">FUND. 6º ANO</SimpleData>
+					<SimpleData name="FUND_7º">FUND. 7º ANO</SimpleData>
+					<SimpleData name="FUND_8º">FUND. 8º ANO</SimpleData>
+					<SimpleData name="FUND_9º">FUND. 9º ANO</SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA">IAS 2ª FASE</SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE">EJA 2º SEG-MENTO</SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">RONALDO BARRETO ANTONY</SimpleData>
+					<SimpleData name="CONTATO">99114-3610</SimpleData>
+					<SimpleData name="RAMAL_CORP">7798</SimpleData>
+					<SimpleData name="TELEFONE">3625-6020</SimpleData>
+					<SimpleData name="E_X">393148,2452</SimpleData>
+					<SimpleData name="N_Y">4656679,8096</SimpleData>
+					<SimpleData name="ATO_CRIAC">1.724/84 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">889</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.06164031290956,-3.104855537674895,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. HELENA AUGUSTA WALCOTT</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">305</SimpleData>
+					<SimpleData name="OBJECTID">305</SimpleData>
+					<SimpleData name="SIGEAM">1204</SimpleData>
+					<SimpleData name="INEP">1.30587e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. HELENA AUGUSTA WALCOTT</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Helena Augusta Walcott</SimpleData>
+					<SimpleData name="DDZ">DDZ - VI</SimpleData>
+					<SimpleData name="DISTRITO">DDZ LESTE II</SimpleData>
+					<SimpleData name="ENDERECO">Av. Itauba, s/nº</SimpleData>
+					<SimpleData name="END_IMPLUR">AV. ITAUBA, S/Nº</SimpleData>
+					<SimpleData name="BAIRRO">JORGE TEIXEIRA</SimpleData>
+					<SimpleData name="CEP">69088-240</SimpleData>
+					<SimpleData name="ZONAS">ZONA LESTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">17</SimpleData>
+					<SimpleData name="TURMAS">40</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º">FUND. 6º ANO</SimpleData>
+					<SimpleData name="FUND_7º">FUND. 7º ANO</SimpleData>
+					<SimpleData name="FUND_8º">FUND. 8º ANO</SimpleData>
+					<SimpleData name="FUND_9º">FUND. 9º ANO</SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE">EJA 2º SEG-MENTO</SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">WILDER MAX VIEIRA DOS SANTOS</SimpleData>
+					<SimpleData name="CONTATO">99123-0044/98169-7656</SimpleData>
+					<SimpleData name="RAMAL_CORP">7808</SimpleData>
+					<SimpleData name="TELEFONE">3644-8369</SimpleData>
+					<SimpleData name="E_X">408366,0248</SimpleData>
+					<SimpleData name="N_Y">4663378,0192</SimpleData>
+					<SimpleData name="ATO_CRIAC">371/96 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">1561</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.92474114086121,-3.04427979668356,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. DIVINO PIMENTA FALEIROS</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">309</SimpleData>
+					<SimpleData name="OBJECTID">309</SimpleData>
+					<SimpleData name="SIGEAM">1332</SimpleData>
+					<SimpleData name="INEP">1.30817e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. DIVINO PIMENTA FALEIROS</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Divino Pimenta Faleiros</SimpleData>
+					<SimpleData name="DDZ">DDZ - VI</SimpleData>
+					<SimpleData name="DISTRITO">DDZ LESTE II</SimpleData>
+					<SimpleData name="ENDERECO">Rua Angelim, nº 129</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA ANGELIM, Nº129</SimpleData>
+					<SimpleData name="BAIRRO">JORGE TEIXEIRA</SimpleData>
+					<SimpleData name="CEP">69078-000</SimpleData>
+					<SimpleData name="ZONAS">ZONA LESTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">11</SimpleData>
+					<SimpleData name="TURMAS">15</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA">IAS 1ªFASE</SimpleData>
+					<SimpleData name="IAS_2ª_FA">IAS 2ª FASE</SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">FRANCISCA SILVA TRINDADE</SimpleData>
+					<SimpleData name="CONTATO">99161-0923/99137-8645</SimpleData>
+					<SimpleData name="RAMAL_CORP">7563</SimpleData>
+					<SimpleData name="TELEFONE">3681-7176</SimpleData>
+					<SimpleData name="E_X">407767,6125</SimpleData>
+					<SimpleData name="N_Y">4663016,5839</SimpleData>
+					<SimpleData name="ATO_CRIAC">597/01 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">SEM TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">304</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.93012410851195,-3.047548781189449,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. HIRAN DE LIMA CAMINHA</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">327</SimpleData>
+					<SimpleData name="OBJECTID">327</SimpleData>
+					<SimpleData name="SIGEAM">6503</SimpleData>
+					<SimpleData name="INEP">1.30936e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. HIRAN DE LIMA CAMINHA</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Hiran de Lima Caminha</SimpleData>
+					<SimpleData name="DDZ">DDZ - VI</SimpleData>
+					<SimpleData name="DISTRITO">DDZ LESTE II</SimpleData>
+					<SimpleData name="ENDERECO">Rua Autaz Mirim, s/nº</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA AUTAZ MIRIM, S/N</SimpleData>
+					<SimpleData name="BAIRRO">JORGE TEIXEIRA</SimpleData>
+					<SimpleData name="CEP">69088-000</SimpleData>
+					<SimpleData name="ZONAS">ZONA LESTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">13</SimpleData>
+					<SimpleData name="TURMAS">25</SimpleData>
+					<SimpleData name="EDUC_ESP">EDUC. ESP.FUND</SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º">PRÉ1º</SimpleData>
+					<SimpleData name="PRE_2º">PRÉ2º</SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM">SRM</SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">ALAN RHICHARLES DA COSTA NEVES</SimpleData>
+					<SimpleData name="CONTATO">99330-1961</SimpleData>
+					<SimpleData name="RAMAL_CORP">7779</SimpleData>
+					<SimpleData name="TELEFONE">3639-6419</SimpleData>
+					<SimpleData name="E_X">406738,9763</SimpleData>
+					<SimpleData name="N_Y">4664100,9608</SimpleData>
+					<SimpleData name="ATO_CRIAC">1.093/07 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">530</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.93937805851774,-3.037742838410316,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CMEI PE. CLAÚDIO DALBON</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">356</SimpleData>
+					<SimpleData name="OBJECTID">356</SimpleData>
+					<SimpleData name="SIGEAM">1475</SimpleData>
+					<SimpleData name="INEP">1.30816e+07</SimpleData>
+					<SimpleData name="ESCOLA">CMEI PE. CLAÚDIO DALBON</SimpleData>
+					<SimpleData name="ESCOLA_GED">CMEI Pe. Claúdio Dalbon</SimpleData>
+					<SimpleData name="DDZ">DDZ - IV</SimpleData>
+					<SimpleData name="DISTRITO">DDZ CENTRO-SUL</SimpleData>
+					<SimpleData name="ENDERECO">Rua 89, nº 10</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA 89 N 10</SimpleData>
+					<SimpleData name="BAIRRO">NOVO ALEIXO</SimpleData>
+					<SimpleData name="CEP">69095-001</SimpleData>
+					<SimpleData name="ZONAS">ZONA NORTE</SimpleData>
+					<SimpleData name="MODALIDADE">EDUCAÇÃO INFANTIL</SimpleData>
+					<SimpleData name="SALAS">6</SimpleData>
+					<SimpleData name="TURMAS">12</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º">PRÉ1º</SimpleData>
+					<SimpleData name="PRE_2º">PRÉ2º</SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">HANANDA CHAVES MOREIRA</SimpleData>
+					<SimpleData name="CONTATO">99916-2902/3214-6083</SimpleData>
+					<SimpleData name="RAMAL_CORP">7745</SimpleData>
+					<SimpleData name="TELEFONE">3214-6083</SimpleData>
+					<SimpleData name="E_X">404716,4456</SimpleData>
+					<SimpleData name="N_Y">4663465,1298</SimpleData>
+					<SimpleData name="ATO_CRIAC">770/04 P.M.M.</SimpleData>
+					<SimpleData name="TELECENTRO">SEM TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">276</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.95757194892005,-3.043493816460114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. PROF. PAULO GRAÇA</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">363</SimpleData>
+					<SimpleData name="OBJECTID">363</SimpleData>
+					<SimpleData name="SIGEAM">6228</SimpleData>
+					<SimpleData name="INEP">1.30926e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. PROF. PAULO GRAÇA</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Prof. Paulo Graça</SimpleData>
+					<SimpleData name="DDZ">DDZ - I</SimpleData>
+					<SimpleData name="DISTRITO">DDZ SUL</SimpleData>
+					<SimpleData name="ENDERECO">Rua Barão do Rio Branco, nº 1</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA BARAO DO RIO BRANCO</SimpleData>
+					<SimpleData name="BAIRRO">NOVO ALEIXO</SimpleData>
+					<SimpleData name="CEP">69058-811</SimpleData>
+					<SimpleData name="ZONAS">ZONA NORTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">12</SimpleData>
+					<SimpleData name="TURMAS">23</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º">FUND. 6º ANO</SimpleData>
+					<SimpleData name="FUND_7º">FUND. 7º ANO</SimpleData>
+					<SimpleData name="FUND_8º">FUND. 8º ANO</SimpleData>
+					<SimpleData name="FUND_9º">FUND. 9º ANO</SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF">SREF</SimpleData>
+					<SimpleData name="GESTOR">JOCELIM H. DA SILVA OLIVEIRA</SimpleData>
+					<SimpleData name="CONTATO">99997-5090 COORP 7804</SimpleData>
+					<SimpleData name="RAMAL_CORP">0</SimpleData>
+					<SimpleData name="TELEFONE">3634-7511</SimpleData>
+					<SimpleData name="E_X">401771,9567</SimpleData>
+					<SimpleData name="N_Y">4662747,0127</SimpleData>
+					<SimpleData name="ATO_CRIAC">840/05 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">745</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.98405979157885,-3.049988794080425,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. ANTONIA ALEXANDRINA M. BENTES</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">408</SimpleData>
+					<SimpleData name="OBJECTID">408</SimpleData>
+					<SimpleData name="SIGEAM">669</SimpleData>
+					<SimpleData name="INEP">1.30283e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. ANTONIA ALEXANDRINA M. BENTES</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Antonia Alexandrina M. Bentes</SimpleData>
+					<SimpleData name="DDZ">DDZ - IV</SimpleData>
+					<SimpleData name="DISTRITO">DDZ CENTRO-SUL</SimpleData>
+					<SimpleData name="ENDERECO">Av.Rogério Magalhães nº 23 QD.242</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA ROGERIO MAGALHAES,QD. 2</SimpleData>
+					<SimpleData name="BAIRRO">CIDADE NOVA</SimpleData>
+					<SimpleData name="CEP">69094-600</SimpleData>
+					<SimpleData name="ZONAS">ZONA NORTE</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">6</SimpleData>
+					<SimpleData name="TURMAS">12</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA">IAS 1ªFASE</SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF">SREF</SimpleData>
+					<SimpleData name="GESTOR">KAREN DINELLY DE OLIVEIRA LEITE</SimpleData>
+					<SimpleData name="CONTATO">99498-1286/3221-6501</SimpleData>
+					<SimpleData name="RAMAL_CORP">7567</SimpleData>
+					<SimpleData name="TELEFONE">3214-6116</SimpleData>
+					<SimpleData name="E_X">403505,4615</SimpleData>
+					<SimpleData name="N_Y">4664259,9957</SimpleData>
+					<SimpleData name="ATO_CRIAC">1861/86 P.M.M</SimpleData>
+					<SimpleData name="TELECENTRO">SEM TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">379</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.96846588850739,-3.036305860088921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CMEI MAGNÓLIA FROTA</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">415</SimpleData>
+					<SimpleData name="OBJECTID">415</SimpleData>
+					<SimpleData name="SIGEAM">1470</SimpleData>
+					<SimpleData name="INEP">1.30816e+07</SimpleData>
+					<SimpleData name="ESCOLA">CMEI MAGNÓLIA FROTA</SimpleData>
+					<SimpleData name="ESCOLA_GED">CMEI Magnólia Frota</SimpleData>
+					<SimpleData name="DDZ">DDZ - IV</SimpleData>
+					<SimpleData name="DISTRITO">DDZ CENTRO-SUL</SimpleData>
+					<SimpleData name="ENDERECO">Av. Atroaris, s/nº</SimpleData>
+					<SimpleData name="END_IMPLUR">RUA ATROARIS S/N</SimpleData>
+					<SimpleData name="BAIRRO">CIDADE NOVA</SimpleData>
+					<SimpleData name="CEP">69090-220</SimpleData>
+					<SimpleData name="ZONAS">ZONA NORTE</SimpleData>
+					<SimpleData name="MODALIDADE">EDUCAÇÃO INFANTIL</SimpleData>
+					<SimpleData name="SALAS">6</SimpleData>
+					<SimpleData name="TURMAS">12</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º">PRÉ1º</SimpleData>
+					<SimpleData name="PRE_2º">PRÉ2º</SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">ANA NERY LOPES DANTAS</SimpleData>
+					<SimpleData name="CONTATO">98236-7767/99316-1625</SimpleData>
+					<SimpleData name="RAMAL_CORP">8212</SimpleData>
+					<SimpleData name="TELEFONE">3641-1591</SimpleData>
+					<SimpleData name="E_X">401283,9851</SimpleData>
+					<SimpleData name="N_Y">4665662,0399</SimpleData>
+					<SimpleData name="ATO_CRIAC">601/01 P.M.M.</SimpleData>
+					<SimpleData name="TELECENTRO">SEM TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">206</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.98844977759006,-3.023626936652952,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. ESTER</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">466</SimpleData>
+					<SimpleData name="OBJECTID">466</SimpleData>
+					<SimpleData name="SIGEAM">1178</SimpleData>
+					<SimpleData name="INEP">1.30588e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. ESTER</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Dona Ester</SimpleData>
+					<SimpleData name="DDZ">DDZ - VII</SimpleData>
+					<SimpleData name="DISTRITO">DDZ RURAL</SimpleData>
+					<SimpleData name="ENDERECO">Est.Manaus - Caracaraí, Km.8</SimpleData>
+					<SimpleData name="END_IMPLUR">EST. MANAUS - CARACARAI KM 8</SimpleData>
+					<SimpleData name="BAIRRO">BR-174</SimpleData>
+					<SimpleData name="CEP">69035-000</SimpleData>
+					<SimpleData name="ZONAS">ZONA RURAL</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">7</SimpleData>
+					<SimpleData name="TURMAS">14</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º">PRÉ2º</SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA">IAS 1ªFASE</SimpleData>
+					<SimpleData name="IAS_2ª_FA">IAS 2ª FASE</SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME">SME</SimpleData>
+					<SimpleData name="SREF">SREF</SimpleData>
+					<SimpleData name="GESTOR">ELINEIDE PEREIRA DE ARAÚJO</SimpleData>
+					<SimpleData name="CONTATO">99193-3789</SimpleData>
+					<SimpleData name="RAMAL_CORP">5139</SimpleData>
+					<SimpleData name="TELEFONE"></SimpleData>
+					<SimpleData name="E_X">395829,0213</SimpleData>
+					<SimpleData name="N_Y">4678556,9621</SimpleData>
+					<SimpleData name="ATO_CRIAC">348/96 P.M.M.</SimpleData>
+					<SimpleData name="TELECENTRO">TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">PRÓPRIO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">344</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.03751654397862,-2.907011584365287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. CARLOS ANTÔNIO CARDOSO</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">502</SimpleData>
+					<SimpleData name="OBJECTID">502</SimpleData>
+					<SimpleData name="SIGEAM">8124</SimpleData>
+					<SimpleData name="INEP">1.30987e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. CARLOS ANTÔNIO CARDOSO</SimpleData>
+					<SimpleData name="ESCOLA_GED">E.M. Carlos Antônio Cardoso</SimpleData>
+					<SimpleData name="DDZ">DDZ - VII</SimpleData>
+					<SimpleData name="DISTRITO">DDZ RURAL</SimpleData>
+					<SimpleData name="ENDERECO">Est.Manaus-Caracaraí, Km 41Com.N.Canaã</SimpleData>
+					<SimpleData name="END_IMPLUR">BR 174 KM 41</SimpleData>
+					<SimpleData name="BAIRRO">BR-174</SimpleData>
+					<SimpleData name="CEP">69048-990</SimpleData>
+					<SimpleData name="ZONAS">ZONA RURAL</SimpleData>
+					<SimpleData name="MODALIDADE">ENSINO FUNDAMENTAL</SimpleData>
+					<SimpleData name="SALAS">4</SimpleData>
+					<SimpleData name="TURMAS">11</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III">Creche III</SimpleData>
+					<SimpleData name="PRE_1º">PRÉ1º</SimpleData>
+					<SimpleData name="PRE_2º">PRÉ2º</SimpleData>
+					<SimpleData name="FUND_1º">FUND. 1º ANO</SimpleData>
+					<SimpleData name="FUND_2º">FUND. 2º ANO</SimpleData>
+					<SimpleData name="FUND_3º">FUND. 3º ANO</SimpleData>
+					<SimpleData name="FUND_4º">FUND. 4º ANO</SimpleData>
+					<SimpleData name="FUND_5º">FUND. 5º ANO</SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR">DILZENIR SOARES DA SILVA MEDEIROS</SimpleData>
+					<SimpleData name="CONTATO">99196-7391</SimpleData>
+					<SimpleData name="RAMAL_CORP">0</SimpleData>
+					<SimpleData name="TELEFONE"></SimpleData>
+					<SimpleData name="E_X">395805,3096</SimpleData>
+					<SimpleData name="N_Y">4710653,4476</SimpleData>
+					<SimpleData name="ATO_CRIAC">2007/12 P.M</SimpleData>
+					<SimpleData name="TELECENTRO">SEM TELECENTRO</SimpleData>
+					<SimpleData name="STATUS">ATIVA</SimpleData>
+					<SimpleData name="TIPO">CEDIDO</SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">158</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-60.03772066442736,-2.616747144495744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. BEATRIZ SVERNER</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">0</SimpleData>
+					<SimpleData name="OBJECTID">0</SimpleData>
+					<SimpleData name="SIGEAM">594</SimpleData>
+					<SimpleData name="INEP">0</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. BEATRIZ SVERNER</SimpleData>
+					<SimpleData name="ESCOLA_GED">ESC. MUL. BEATRIZ SVERNER</SimpleData>
+					<SimpleData name="DDZ"></SimpleData>
+					<SimpleData name="DISTRITO"></SimpleData>
+					<SimpleData name="ENDERECO"></SimpleData>
+					<SimpleData name="END_IMPLUR"></SimpleData>
+					<SimpleData name="BAIRRO"></SimpleData>
+					<SimpleData name="CEP"></SimpleData>
+					<SimpleData name="ZONAS"></SimpleData>
+					<SimpleData name="MODALIDADE"></SimpleData>
+					<SimpleData name="SALAS">0</SimpleData>
+					<SimpleData name="TURMAS">0</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR"></SimpleData>
+					<SimpleData name="CONTATO"></SimpleData>
+					<SimpleData name="RAMAL_CORP">0</SimpleData>
+					<SimpleData name="TELEFONE"></SimpleData>
+					<SimpleData name="E_X"></SimpleData>
+					<SimpleData name="N_Y"></SimpleData>
+					<SimpleData name="ATO_CRIAC"></SimpleData>
+					<SimpleData name="TELECENTRO"></SimpleData>
+					<SimpleData name="STATUS"></SimpleData>
+					<SimpleData name="TIPO"></SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.93360122519979,-3.052963128760136,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CMAE ANÍBAL BEÇA</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">0</SimpleData>
+					<SimpleData name="OBJECTID">0</SimpleData>
+					<SimpleData name="SIGEAM">0</SimpleData>
+					<SimpleData name="INEP">0</SimpleData>
+					<SimpleData name="ESCOLA">CMAE ANÍBAL BEÇA</SimpleData>
+					<SimpleData name="ESCOLA_GED">CMAE ANIBAL BEÇA</SimpleData>
+					<SimpleData name="DDZ"></SimpleData>
+					<SimpleData name="DISTRITO"></SimpleData>
+					<SimpleData name="ENDERECO"></SimpleData>
+					<SimpleData name="END_IMPLUR"></SimpleData>
+					<SimpleData name="BAIRRO"></SimpleData>
+					<SimpleData name="CEP"></SimpleData>
+					<SimpleData name="ZONAS"></SimpleData>
+					<SimpleData name="MODALIDADE"></SimpleData>
+					<SimpleData name="SALAS">0</SimpleData>
+					<SimpleData name="TURMAS">0</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR"></SimpleData>
+					<SimpleData name="CONTATO"></SimpleData>
+					<SimpleData name="RAMAL_CORP">0</SimpleData>
+					<SimpleData name="TELEFONE"></SimpleData>
+					<SimpleData name="E_X"></SimpleData>
+					<SimpleData name="N_Y"></SimpleData>
+					<SimpleData name="ATO_CRIAC"></SimpleData>
+					<SimpleData name="TELECENTRO"></SimpleData>
+					<SimpleData name="STATUS"></SimpleData>
+					<SimpleData name="TIPO"></SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.94477638419345,-3.06632826119287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. PAULO GRAÇA - ANEXO</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">363</SimpleData>
+					<SimpleData name="OBJECTID">363</SimpleData>
+					<SimpleData name="SIGEAM">6228</SimpleData>
+					<SimpleData name="INEP">1.30926e+07</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. PAULO GRAÇA - ANEXO</SimpleData>
+					<SimpleData name="ESCOLA_GED"></SimpleData>
+					<SimpleData name="DDZ"></SimpleData>
+					<SimpleData name="DISTRITO"></SimpleData>
+					<SimpleData name="ENDERECO"></SimpleData>
+					<SimpleData name="END_IMPLUR"></SimpleData>
+					<SimpleData name="BAIRRO"></SimpleData>
+					<SimpleData name="CEP"></SimpleData>
+					<SimpleData name="ZONAS"></SimpleData>
+					<SimpleData name="MODALIDADE"></SimpleData>
+					<SimpleData name="SALAS">0</SimpleData>
+					<SimpleData name="TURMAS">0</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR"></SimpleData>
+					<SimpleData name="CONTATO"></SimpleData>
+					<SimpleData name="RAMAL_CORP">0</SimpleData>
+					<SimpleData name="TELEFONE"></SimpleData>
+					<SimpleData name="E_X"></SimpleData>
+					<SimpleData name="N_Y"></SimpleData>
+					<SimpleData name="ATO_CRIAC"></SimpleData>
+					<SimpleData name="TELECENTRO"></SimpleData>
+					<SimpleData name="STATUS"></SimpleData>
+					<SimpleData name="TIPO"></SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.98351643546759,-3.049991529725755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESC. MUL. JULIA BARJONA</name>
+			<visibility>0</visibility>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ESCOLAS21_IIDDSSSSSSSSSSDDSSSSSSSSSSSSSSSSSSSSSSSSSSSDSSSSSSSSD">
+					<SimpleData name="OBJECTID_1">0</SimpleData>
+					<SimpleData name="OBJECTID">0</SimpleData>
+					<SimpleData name="SIGEAM">629</SimpleData>
+					<SimpleData name="INEP">0</SimpleData>
+					<SimpleData name="ESCOLA">ESC. MUL. JULIA BARJONA</SimpleData>
+					<SimpleData name="ESCOLA_GED">ESC. MUL. JULIA BARJONA - PRÓPRIA</SimpleData>
+					<SimpleData name="DDZ"></SimpleData>
+					<SimpleData name="DISTRITO"></SimpleData>
+					<SimpleData name="ENDERECO"></SimpleData>
+					<SimpleData name="END_IMPLUR"></SimpleData>
+					<SimpleData name="BAIRRO"></SimpleData>
+					<SimpleData name="CEP"></SimpleData>
+					<SimpleData name="ZONAS"></SimpleData>
+					<SimpleData name="MODALIDADE"></SimpleData>
+					<SimpleData name="SALAS">0</SimpleData>
+					<SimpleData name="TURMAS">0</SimpleData>
+					<SimpleData name="EDUC_ESP"></SimpleData>
+					<SimpleData name="ESP_EJA"></SimpleData>
+					<SimpleData name="BER"></SimpleData>
+					<SimpleData name="Creche_I"></SimpleData>
+					<SimpleData name="Creche_II"></SimpleData>
+					<SimpleData name="Creche_III"></SimpleData>
+					<SimpleData name="PRE_1º"></SimpleData>
+					<SimpleData name="PRE_2º"></SimpleData>
+					<SimpleData name="FUND_1º"></SimpleData>
+					<SimpleData name="FUND_2º"></SimpleData>
+					<SimpleData name="FUND_3º"></SimpleData>
+					<SimpleData name="FUND_4º"></SimpleData>
+					<SimpleData name="FUND_5º"></SimpleData>
+					<SimpleData name="FUND_6º"></SimpleData>
+					<SimpleData name="FUND_7º"></SimpleData>
+					<SimpleData name="FUND_8º"></SimpleData>
+					<SimpleData name="FUND_9º"></SimpleData>
+					<SimpleData name="IAS_1ª_FA"></SimpleData>
+					<SimpleData name="IAS_2ª_FA"></SimpleData>
+					<SimpleData name="EJA_1º_SE"></SimpleData>
+					<SimpleData name="EJA_2º_SE"></SimpleData>
+					<SimpleData name="SRM"></SimpleData>
+					<SimpleData name="SR"></SimpleData>
+					<SimpleData name="SME"></SimpleData>
+					<SimpleData name="SREF"></SimpleData>
+					<SimpleData name="GESTOR"></SimpleData>
+					<SimpleData name="CONTATO"></SimpleData>
+					<SimpleData name="RAMAL_CORP">0</SimpleData>
+					<SimpleData name="TELEFONE"></SimpleData>
+					<SimpleData name="E_X"></SimpleData>
+					<SimpleData name="N_Y"></SimpleData>
+					<SimpleData name="ATO_CRIAC"></SimpleData>
+					<SimpleData name="TELECENTRO"></SimpleData>
+					<SimpleData name="STATUS"></SimpleData>
+					<SimpleData name="TIPO"></SimpleData>
+					<SimpleData name="OBS"></SimpleData>
+					<SimpleData name="ALUNOS">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-59.95249158436001,-3.065879551924209,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
